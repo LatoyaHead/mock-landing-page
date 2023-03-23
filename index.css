@@ -1,0 +1,122 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+
+body {
+    background-image: url("https://img.freepik.com/free-photo/wallpaper-background-several-transparent-circles_58702-7114.jpg?w=740&t=st=1679592893~exp=1679593493~hmac=ee80c3aaac7e9fff25234cf01cec39266c4278b0f66de3878e848a74a79b9e9e");
+    background-size: cover;
+    overflow: hidden;
+}
+.box {
+    margin: 75px 25px 75px 25px;
+    background: white;
+    border-radius: 40px;
+    opacity: 0.9;
+    height: 80vh;
+    width: 85%
+}
+
+.box2 {
+    display: flex;
+    width: 100%;
+}
+section {
+    position: relative;
+    width: 100%;
+    height: 100%;
+    padding: 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header {
+    position: absolute;
+    top: 0;
+    left: 0;
+    width: 100%;
+    padding: 20px 100px;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+header .logo {
+    position: relative;
+    max-width: 60px;
+}
+
+header ul {
+    position: relative;
+    display: flex;
+}
+header ul li {
+    list-style: none;
+}
+
+header ul li a {
+    display: inline-block;
+    color: rgb(75, 75, 142);
+    margin-left: 40px;
+    text-decoration: none;
+    font-size: large;
+    font-weight: 95px;
+}
+
+.content {
+    position: relative;
+    width: 35%;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.imgContainer {
+    width: 65%;
+}
+.content .text {
+    position: relative;
+    max-width: 600px;
+}
+
+.content .text h2 {
+    color: rgb(21, 21, 63);
+    font-size: 4em;
+    line-height: 1em;
+    font-weight: 400;
+    font-family: fantasy;
+}
+
+p {
+    margin-top: 10px;
+    color: rgb(94, 94, 123);
+}
+.content .text a {
+    display: inline-block;
+    align-items: center;
+    margin-top: 20px;
+    padding: 8px 20px;
+    color:white;
+    background: rgb(240, 107, 107);
+    font-weight: 500;
+    font-size: 1.2em;
+    letter-spacing: 1px;
+    border-radius: 10px;
+    text-decoration: none;
+}
+
+.logo1 {
+    width: 100%;
+}
+
+.img {
+    width: 90%;
+}
+
+.pictures {
+    display: inline-block;
+    justify-content: center;
+}
+
