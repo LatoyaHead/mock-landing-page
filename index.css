@@ -79,6 +79,9 @@ header ul li a {
 
 .imgContainer {
     width: 65%;
+    display: flex;
+    justify-content: center;
+    align-items: center;
 }
 
 .content .text h2 {
@@ -87,6 +90,7 @@ header ul li a {
     line-height: 1em;
     font-weight: 400;
     font-family: fantasy;
+    padding-top: 40px;
 }
 
 p {
@@ -113,6 +117,8 @@ p {
 
 .img {
     width: 90%;
+    height: 90%;
+    padding-top: 20px;
 }
 
 .pictures {
@@ -128,4 +134,25 @@ p {
 
 h4 {
     color: rgb(21, 21, 63);
+}
+
+@media (max-width: 800px) {
+    body {
+        background: rgb(30, 176, 212);
+    }
+    .box2 {
+        width: 90%;
+    }
+    .content .text h2 {
+        font-size: 20px;
+        font-weight: 200;
+        line-height: 1em;
+        padding-top: 50px;
+    }
+    .pictures {
+        padding-top: 40px;
+    }
+    .img {
+        padding-top: 50px;
+    }
 }

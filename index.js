@@ -14,5 +14,8 @@ main.addEventListener('click',() => changeImg('./img/fitness-removebg-preview.pn
 
 function changeImg(img) {
     mainImg.src = img
-    console.log('image');
+    mainImg.style.width = '75%'
+    mainImg.style.height = '75%'
+    mainImg.style.paddingTop = '20px'
 }
+
